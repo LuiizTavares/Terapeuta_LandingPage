@@ -28,7 +28,6 @@
 .header-2 {
   text-transform: uppercase;
   padding: 20px 20px;
-  /* background-color: rgba(0, 204, 255, 0.3); */
   border-radius: 5px;
   backdrop-filter: blur(50px);
 }
@@ -47,14 +46,15 @@
 .header-video p {
   font-family: "Noto Sans", sans-serif;
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 30px;
   text-align: center;
+  text-transform: uppercase;
   color: #fff;
 }
 
 .header-video img {
   width: 500px;
-  margin-left: 40px;
+  margin-left: 50px;
   border-radius: 10px;
 }

@@ -1,0 +1,15 @@
+.sintomas {
+  margin-top: 100px;
+}
+
+.sintomas h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  color: #8a40ba;
+}
+
+.sintomas-lista {
+}
