@@ -1,0 +1,29 @@
+.apresentacao {
+  margin-top: 150px;
+}
+
+.apresentacao-infos img {
+  display: block;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.apresentacao-infos p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.infos-1 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.infos-2 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
