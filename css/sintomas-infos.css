@@ -18,7 +18,7 @@
   text-align: center;
   padding: 20px 30px;
   text-transform: uppercase;
-  color: #000;
+  color: #fff;
   background-color: #8a40ba;
   border-radius: 10px;
 }
@@ -28,6 +28,7 @@
   font-size: 22px;
   font-weight: 600;
   line-height: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   padding-top: 30px;
+  border-bottom: 2px solid #8a40ba;
 }
