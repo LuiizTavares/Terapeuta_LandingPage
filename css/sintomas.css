@@ -1,5 +1,5 @@
 .sintomas {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .sintomas h2 {
@@ -12,4 +12,22 @@
 }
 
 .sintomas-lista {
+  padding-top: 50px;
+  max-width: 800px;
+  margin-left: 190px;
+}
+
+.sintomas-lista li {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #8a40ba;
+}
+
+.sintomas-lista span {
+  font-size: 30px;
+  color: #8a40ba;
 }

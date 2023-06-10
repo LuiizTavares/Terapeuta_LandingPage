@@ -1,0 +1,33 @@
+.sintomas-infos {
+  margin-top: 50px;
+}
+
+.sintomas-infos h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #8a40ba;
+}
+
+.sintomas-infos h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  color: #000;
+  background-color: #8a40ba;
+  border-radius: 10px;
+}
+
+.sintomas-infos-lista li {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
