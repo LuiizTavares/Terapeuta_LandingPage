@@ -1,5 +1,5 @@
 .sintomas-infos {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .sintomas-infos h2 {
@@ -17,6 +17,7 @@
   font-weight: 800;
   text-align: center;
   padding: 20px 30px;
+  margin: 40px 0px;
   text-transform: uppercase;
   color: #fff;
   background-color: #8a40ba;
