@@ -22,3 +22,25 @@
   color: #000;
   margin-bottom: 20px;
 }
+
+@media (max-width: 576px) {
+  .apresentacao {
+    margin-top: 70px;
+  }
+  .apresentacao-infos {
+    grid-template-columns: 1fr;
+  }
+  .apresentacao-infos img {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .apresentacao-infos p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .apresentacao-text {
+    grid-row: 1;
+    padding-bottom: 50px;
+  }
+}
