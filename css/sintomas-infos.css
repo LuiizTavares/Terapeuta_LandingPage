@@ -57,3 +57,33 @@
 .fundo-sintomas {
   background-image: linear-gradient(to bottom left, #420e38, #0a0420);
 }
+
+@media (max-width: 576px) {
+  .sintomas-infos-titles h2 {
+    font-size: 25px;
+  }
+  .sintomas-infos-titles h3 {
+    font-size: 18px;
+    margin-bottom: -75px;
+  }
+  .sintomas-infos-lista {
+    padding-top: 130px;
+    text-align: center;
+  }
+  .sintomas-lista-1,
+  .sintomas-lista-2 {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .sintomas-lista-1 img,
+  .sintomas-lista-2 img {
+    width: 450px;
+    margin: 0 auto;
+  }
+  .sintomas-infos-lista p {
+    font-size: 16px;
+  }
+  .sintomas-img {
+    grid-row: 2;
+  }
+}
