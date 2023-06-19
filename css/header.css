@@ -63,3 +63,31 @@
   margin-left: 150px;
   border-radius: 10px;
 }
+
+@media (max-width: 576px) {
+  .header-logo {
+    padding-top: 50px;
+    margin: 0 auto;
+  }
+  .header-content {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+  .header-texto {
+    text-align: center;
+  }
+  .header-video {
+    grid-row: 1;
+  }
+  .text-1 {
+    font-size: 20px;
+  }
+  .text-2 p {
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
+  .text-2 a {
+    font-size: 14px;
+    padding: 15px 30px;
+  }
+}
