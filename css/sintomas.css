@@ -31,3 +31,20 @@
   font-size: 30px;
   color: #8a40ba;
 }
+
+@media (max-width: 576px) {
+  .sintomas h2 {
+    font-size: 25px;
+  }
+  .sintomas-lista {
+    margin-left: 0px;
+  }
+  .sintomas-lista li {
+    font-size: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  .sintomas-lista span {
+    font-size: 25px;
+  }
+}
