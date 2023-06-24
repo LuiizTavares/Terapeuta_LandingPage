@@ -44,8 +44,8 @@
   text-transform: uppercase;
   padding: 15px 50px;
   background-color: #fff;
-  filter: brightness(95%);
   border-radius: 30px;
+  filter: brightness(95%);
 }
 
 .text-2 a:hover {

@@ -1,0 +1,42 @@
+.feedback {
+  margin-top: 100px;
+}
+
+.feedback-title {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.feedback h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #755ec5;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+
+.feedback img {
+  padding-bottom: 100px;
+}
+
+.feedback-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.feedback a {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px 50px;
+  border-radius: 30px;
+  color: #fff;
+  background-color: #755ec5;
+}
+
+.feedback a:hover {
+  filter: brightness(110%);
+}

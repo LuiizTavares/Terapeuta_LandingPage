@@ -8,7 +8,7 @@
   font-weight: 800;
   text-align: center;
   text-transform: uppercase;
-  color: #8a40ba;
+  color: #755ec5;
 }
 
 .sintomas-lista {
@@ -24,12 +24,12 @@
   line-height: 30px;
   margin-bottom: 40px;
   padding-bottom: 40px;
-  border-bottom: 2px solid #8a40ba;
+  border-bottom: 2px solid #755ec5;
 }
 
 .sintomas-lista span {
   font-size: 30px;
-  color: #8a40ba;
+  color: #755ec5;
 }
 
 @media (max-width: 576px) {

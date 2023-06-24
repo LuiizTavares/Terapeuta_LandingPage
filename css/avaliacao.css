@@ -22,16 +22,6 @@
   padding-top: 20px;
 }
 
-.avaliacao-etapas h3 {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 25px;
-  font-weight: 600;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 50px 0px;
-  border-bottom: 2px solid #fff;
-}
 .avaliacao-etapas img {
   width: 200px;
   background-color: #fff;
@@ -45,11 +35,12 @@
 }
 
 .passos-style {
+  margin-top: 100px;
   padding: 150px 0px;
-  border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
 }
 
-.passos h4 {
+.passos h3 {
   font-family: "Noto Sans", sans-serif;
   font-size: 40px;
   font-weight: 600;
