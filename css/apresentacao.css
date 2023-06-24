@@ -12,6 +12,7 @@
   display: block;
   width: 400px;
   border-radius: 5px;
+  box-shadow: 0px 0px 10px #000;
 }
 
 .apresentacao-infos p {

@@ -1,0 +1,66 @@
+.avaliacao-bg {
+  background-image: linear-gradient(to bottom left, #420e38, #0a0420);
+  margin-top: 100px;
+}
+
+.avaliacao-texts h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.avaliacao-texts p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.avaliacao-etapas h3 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px 0px;
+  border-bottom: 2px solid #fff;
+}
+.avaliacao-etapas img {
+  width: 200px;
+  background-color: #fff;
+}
+
+.passos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.passos-style {
+  padding: 150px 0px;
+  border-bottom: 2px solid #fff;
+}
+
+.passos h4 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.passos p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 20px;
+}
