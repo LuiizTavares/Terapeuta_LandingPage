@@ -38,6 +38,7 @@
 }
 
 .text-2 a {
+  display: inline-block;
   color: #755ec5;
   font-size: 18px;
   font-weight: 700;
@@ -45,17 +46,14 @@
   padding: 15px 50px;
   background-color: #fff;
   border-radius: 30px;
-  filter: brightness(95%);
 }
 
 .text-2 a:hover {
-  color: #b840ba;
-  background-color: #fff;
-  filter: brightness(100%);
+  color: #be28cb;
 }
 
 .header-texto span {
-  color: #13e3f5;
+  color: #be28cb;
 }
 
 .header-video {

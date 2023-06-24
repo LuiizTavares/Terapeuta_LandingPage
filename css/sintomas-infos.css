@@ -55,7 +55,7 @@
 }
 
 .fundo-sintomas {
-  background-image: linear-gradient(to bottom left, #420e38, #0a0420);
+  background-image: linear-gradient(to bottom left, #755ec5, #0a0420);
 }
 
 @media (max-width: 576px) {
