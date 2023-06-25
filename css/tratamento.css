@@ -1,0 +1,29 @@
+.tratamento {
+  margin-bottom: 100px;
+  background-image: linear-gradient(to top, #0a0420, #755ec5, #0a0420);
+  border-top: 2px solid #fff;
+}
+
+.tratamento-conteudo {
+  padding: 100px 0px;
+}
+
+.tratamento-conteudo h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.tratamento-conteudo p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  color: #fff;
+}
