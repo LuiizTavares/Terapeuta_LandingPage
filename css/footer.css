@@ -1,0 +1,46 @@
+.footer-bg {
+  background-image: url("../imgs/fundos/footer-blur4.png");
+  border-top: 2px solid #fff;
+  padding: 50px 0px;
+}
+
+.footer-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.footer-conteudo h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.footer-conteudo a {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.redes-sociais img,
+.contato img {
+  width: 20px;
+}
+
+.redes-icon,
+.contato-icon {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 10px;
+}
