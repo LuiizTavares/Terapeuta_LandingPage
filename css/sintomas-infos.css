@@ -52,10 +52,12 @@
 
 .sintomas-infos-lista img {
   border-radius: 5px;
+  border: 2px solid #fff;
+  box-shadow: 0px 0px 10px #000;
 }
 
 .fundo-sintomas {
-  background-image: linear-gradient(to bottom left, #755ec5, #0a0420);
+  background-image: linear-gradient(to top, #0a0420, #755ec5, #0a0420);
 }
 
 @media (max-width: 576px) {
