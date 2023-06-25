@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.funcionamento-texto span {
+  color: #755ec5;
+}
+
 .funcionamento-texto h2 {
   font-family: "Noto Sans", sans-serif;
   font-size: 25px;
@@ -16,7 +20,7 @@
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 30px;
-  color: #755ec5;
+  color: #000;
 }
 
 .funcionamento-texto p {
@@ -26,7 +30,7 @@
   line-height: 30px;
   padding-bottom: 20px;
   text-align: center;
-  color: #755ec5;
+  color: #000;
 }
 
 .funcionamento-img {

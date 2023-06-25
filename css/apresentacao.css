@@ -20,8 +20,12 @@
   font-size: 22px;
   font-weight: 600;
   line-height: 35px;
-  color: #755ec5;
+  color: #000;
   margin-bottom: 20px;
+}
+
+.apresentacao-infos span {
+  color: #755ec5;
 }
 
 @media (max-width: 576px) {
