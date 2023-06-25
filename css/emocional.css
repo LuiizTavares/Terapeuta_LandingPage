@@ -34,3 +34,16 @@
   border: 2px solid #755ec5;
   box-shadow: 0px 0px 10px #000;
 }
+
+@media (max-width: 576px) {
+  .emocional-conteudo h2 {
+    font-size: 20px;
+  }
+  .emocional-conteudo p {
+    font-size: 16px;
+  }
+
+  .emocional-box {
+    padding: 50px 50px;
+  }
+}

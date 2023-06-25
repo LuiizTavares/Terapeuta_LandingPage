@@ -4,7 +4,8 @@
 }
 
 .tratamento-conteudo {
-  padding: 100px 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .tratamento-conteudo h2 {
@@ -57,4 +58,21 @@
 
 .tratamento-btn a:hover::after {
   width: 100%;
+}
+
+@media (max-width: 576px) {
+  .tratamento-conteudo {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .tratamento-conteudo h2 {
+    font-size: 25px;
+  }
+  .tratamento-conteudo p {
+    font-size: 15px;
+  }
+
+  .tratamento-btn a {
+    font-size: 15px;
+  }
 }
