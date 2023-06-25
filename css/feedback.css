@@ -50,3 +50,16 @@
 .feedback-btn a:hover::after {
   width: 100%;
 }
+
+@media (max-width: 576px) {
+  .feedback-title {
+    width: 500px;
+  }
+  .feedback h2 {
+    font-size: 25px;
+  }
+
+  .feedback-btn a {
+    font-size: 15px;
+  }
+}
