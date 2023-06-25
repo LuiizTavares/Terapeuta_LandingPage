@@ -1,0 +1,38 @@
+.funcionamento {
+  margin-top: 100px;
+}
+
+.funcionamento-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.funcionamento-texto h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #755ec5;
+}
+
+.funcionamento-texto p {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #755ec5;
+}
+
+.funcionamento-img {
+  display: flex;
+  justify-content: center;
+}
+
+.funcionamento-img img {
+  transform: rotateY(180deg);
+}
