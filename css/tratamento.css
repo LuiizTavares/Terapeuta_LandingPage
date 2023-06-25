@@ -20,10 +20,10 @@
 
 .tratamento-conteudo p {
   font-family: "Noto Sans", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
+  line-height: 30px;
   text-align: center;
-  text-transform: uppercase;
   padding-bottom: 30px;
   color: #fff;
 }

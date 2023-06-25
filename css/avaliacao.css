@@ -1,5 +1,4 @@
 .avaliacao-bg {
-  /* background-image: linear-gradient(to bottom left, #755ec5, #0a0420); */
   background-image: linear-gradient(to top, #0a0420, #755ec5, #0a0420);
 
   margin-top: 100px;
@@ -30,8 +29,7 @@
 }
 
 .avaliacao-etapas img {
-  width: 200px;
-  background-color: #fff;
+  width: 250px;
 }
 
 .passos {
@@ -39,6 +37,11 @@
   grid-template-columns: 1fr 1fr;
   gap: 50px;
   align-items: center;
+}
+
+.passos-img {
+  display: flex;
+  justify-content: center;
 }
 
 .passos-style {
