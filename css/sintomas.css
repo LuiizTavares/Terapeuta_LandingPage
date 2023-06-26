@@ -4,7 +4,7 @@
 
 .sintomas h2 {
   font-family: "Noto Sans", sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 800;
   text-align: center;
   text-transform: uppercase;
@@ -19,7 +19,7 @@
 
 .sintomas-lista li {
   font-family: "Noto Sans", sans-serif;
-  font-size: 25px;
+  font-size: 1.56rem;
   font-weight: 600;
   line-height: 30px;
   margin-bottom: 40px;
@@ -28,23 +28,36 @@
 }
 
 .sintomas-lista span {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #755ec5;
 }
 
 @media (max-width: 576px) {
   .sintomas h2 {
-    font-size: 25px;
+    font-size: 1.56rem;
   }
   .sintomas-lista {
     margin-left: 0px;
   }
   .sintomas-lista li {
-    font-size: 20px;
+    font-size: 1.25rem;
     padding-bottom: 30px;
     margin-bottom: 30px;
   }
   .sintomas-lista span {
-    font-size: 25px;
+    font-size: 1.56rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .sintomas h2 {
+    font-size: 1.25rem;
+  }
+  .sintomas-lista li {
+    font-size: 1.125rem;
+  }
+
+  .sintomas-lista span {
+    font-size: 20px;
   }
 }

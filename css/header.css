@@ -24,14 +24,14 @@
 }
 
 .text-1 {
-  font-size: 24px;
+  font-size: 1.56rem;
   font-weight: 700;
   line-height: 35px;
   padding-bottom: 30px;
 }
 
 .text-2 p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   line-height: 25px;
   padding-bottom: 50px;
@@ -40,7 +40,7 @@
 .text-2 a {
   display: inline-block;
   color: #755ec5;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   text-transform: uppercase;
   padding: 15px 50px;
@@ -87,14 +87,14 @@
     margin-top: 50px;
   }
   .text-1 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .text-2 p {
-    font-size: 16px;
+    font-size: 1rem;
     padding-bottom: 50px;
   }
   .text-2 a {
-    font-size: 14px;
+    font-size: 0.875rem;
     padding: 15px 30px;
   }
 }

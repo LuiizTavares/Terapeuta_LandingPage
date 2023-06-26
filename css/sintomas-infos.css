@@ -8,7 +8,7 @@
 
 .sintomas-infos-titles h2 {
   font-family: "Noto Sans", sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 800;
   text-align: center;
   padding-bottom: 30px;
@@ -17,7 +17,7 @@
 
 .sintomas-infos-titles h3 {
   font-family: "Noto Sans", sans-serif;
-  font-size: 25px;
+  font-size: 1.56rem;
   font-weight: 800;
   text-align: center;
   padding: 20px 30px;
@@ -44,7 +44,7 @@
 
 .sintomas-infos-lista p {
   font-family: "Noto Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.12rem;
   font-weight: 500;
   padding-bottom: 15px;
   color: #fff;
@@ -62,10 +62,10 @@
 
 @media (max-width: 576px) {
   .sintomas-infos-titles h2 {
-    font-size: 25px;
+    font-size: 1.56rem;
   }
   .sintomas-infos-titles h3 {
-    font-size: 18px;
+    font-size: 1.12rem;
     margin-bottom: -70px;
   }
   .sintomas-infos-lista {
@@ -83,9 +83,25 @@
     margin: 0 auto;
   }
   .sintomas-infos-lista p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .sintomas-img {
     grid-row: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .sintomas-infos-titles h2 {
+    font-size: 1.25rem;
+  }
+  .sintomas-infos-titles h3 {
+    font-size: 0.93rem;
+  }
+  .sintomas-infos-lista p {
+    font-size: 0.93rem;
+  }
+  .sintomas-lista-1 img,
+  .sintomas-lista-2 img {
+    width: 350px;
   }
 }

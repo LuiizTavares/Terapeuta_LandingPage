@@ -14,7 +14,7 @@
 
 .footer-conteudo h2 {
   font-family: "Noto Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   text-align: center;
   color: #fff;
@@ -23,7 +23,7 @@
 
 .footer-conteudo a {
   font-family: "Noto Sans", sans-serif;
-  font-size: 15px;
+  font-size: 0.93rem;
   font-weight: 500;
   color: #fff;
 }
@@ -34,7 +34,7 @@
 
 .redes-sociais img,
 .contato img {
-  width: 20px;
+  width: 1.25rem;
 }
 
 .redes-icon,
@@ -43,4 +43,24 @@
   flex-wrap: nowrap;
   justify-content: center;
   gap: 10px;
+}
+
+@media (max-width: 400px) {
+  .footer-conteudo h2 {
+    font-size: 0.875rem;
+  }
+  .footer-logo {
+    width: 70px;
+  }
+  .redes-sociais img,
+  .contato img {
+    width: 1.125rem;
+  }
+  .redes-icon,
+  .contato-icon {
+    flex-wrap: wrap;
+  }
+  .footer-conteudo a {
+    display: none;
+  }
 }

@@ -9,7 +9,7 @@
 
 .emocional-conteudo h2 {
   font-family: "Noto Sans", sans-serif;
-  font-size: 25px;
+  font-size: 1.56rem;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -19,7 +19,7 @@
 
 .emocional-conteudo p {
   font-family: "Noto Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   line-height: 30px;
   text-align: center;
@@ -37,13 +37,25 @@
 
 @media (max-width: 576px) {
   .emocional-conteudo h2 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .emocional-conteudo p {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .emocional-box {
     padding: 50px 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .emocional-conteudo h2 {
+    font-size: 1.125rem;
+  }
+  .emocional-conteudo p {
+    font-size: 0.93rem;
+  }
+  .emocional-box {
+    padding: 30px 30px;
   }
 }

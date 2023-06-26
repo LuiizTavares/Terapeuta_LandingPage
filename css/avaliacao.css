@@ -10,7 +10,7 @@
 
 .avaliacao-texts h2 {
   font-family: "Noto Sans", sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
   color: #fff;
   text-align: center;
@@ -21,7 +21,7 @@
 
 .avaliacao-texts p {
   font-family: "Noto Sans", sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   color: #fff;
   text-align: center;
@@ -51,7 +51,7 @@
 
 .passos h3 {
   font-family: "Noto Sans", sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
   color: #fff;
   padding-bottom: 30px;
@@ -59,7 +59,7 @@
 
 .passos p {
   font-family: "Noto Sans", sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: #fff;
   padding-bottom: 20px;
@@ -71,12 +71,12 @@
   }
 
   .avaliacao-texts h2 {
-    font-size: 25px;
+    font-size: 1.56rem;
     padding-top: 50px;
   }
 
   .avaliacao-texts p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .avaliacao-passos img {
@@ -88,16 +88,35 @@
   }
 
   .passos h3 {
-    font-size: 25px;
+    font-size: 1.56rem;
     text-align: center;
   }
 
   .passos p {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
   }
 
   .passos-style {
     padding: 100px 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .avaliacao-texts h2 {
+    font-size: 1.25rem;
+  }
+  .avaliacao-texts p {
+    font-size: 1rem;
+  }
+
+  .avaliacao-passos img {
+    width: 100px;
+  }
+  .passos h3 {
+    font-size: 1.25rem;
+  }
+  .passos p {
+    font-size: 1rem;
   }
 }

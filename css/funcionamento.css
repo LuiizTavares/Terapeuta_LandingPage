@@ -15,7 +15,7 @@
 
 .funcionamento-texto h2 {
   font-family: "Noto Sans", sans-serif;
-  font-size: 25px;
+  font-size: 1.56rem;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -25,7 +25,7 @@
 
 .funcionamento-texto p {
   font-family: "Noto Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   line-height: 30px;
   padding-bottom: 20px;
@@ -53,7 +53,7 @@
 
 .resultado-textos h2 {
   font-family: "Noto Sans", sans-serif;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -63,7 +63,7 @@
 
 .resultado-textos h3 {
   font-family: "Noto Sans", sans-serif;
-  font-size: 25px;
+  font-size: 1.56rem;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -81,7 +81,7 @@
 
 .resultado-cards p {
   font-family: "Noto Sans", sans-serif;
-  font-size: 15px;
+  font-size: 0.93rem;
   font-weight: 600;
   line-height: 25px;
   text-align: center;
@@ -118,10 +118,10 @@
   }
 
   .funcionamento-texto h2 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .funcionamento-texto p {
-    font-size: 15px;
+    font-size: 0.93rem;
   }
 
   .funcionamento-img img {
@@ -132,10 +132,10 @@
     padding: 0px 40px;
   }
   .resultado-textos h2 {
-    font-size: 25px;
+    font-size: 1.56rem;
   }
   .resultado-textos h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .resultado-cards {
     flex-direction: column;
@@ -147,5 +147,29 @@
   }
   .cards {
     padding: 20px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .funcionamento-img img {
+    width: 250px;
+  }
+  .resultado-textos h2 {
+    font-size: 1.25rem;
+  }
+  .resultado-textos h3 {
+    font-size: 1rem;
+  }
+  .resultado-cards {
+    padding-top: 25px;
+  }
+  .resultado-cards img {
+    width: 50px;
+  }
+  .resultado-cards p {
+    font-size: 0.875rem;
+  }
+  .cards {
+    padding: 15px 15px;
   }
 }

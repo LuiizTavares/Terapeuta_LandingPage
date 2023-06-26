@@ -17,7 +17,7 @@
 
 .apresentacao-infos p {
   font-family: "Noto Sans", sans-serif;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 600;
   line-height: 35px;
   color: #000;
@@ -40,12 +40,21 @@
     margin: 0 auto;
   }
   .apresentacao-infos p {
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
   }
 
   .apresentacao-text {
     grid-row: 1;
     padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .apresentacao-infos p {
+    font-size: 1rem;
+  }
+  .apresentacao-infos img {
+    width: 250px;
   }
 }
