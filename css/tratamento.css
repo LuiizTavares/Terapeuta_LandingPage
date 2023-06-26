@@ -73,7 +73,9 @@
   }
 
   .tratamento-btn a {
-    font-size: 0.93rem;
+    font-size: 0.875rem;
+    padding: 15px 15px;
+    text-align: center;
   }
 }
 
@@ -83,12 +85,5 @@
   }
   .tratamento-conteudo p {
     font-size: 0.875rem;
-  }
-  .tratamento-btn a {
-    text-align: center;
-  }
-  .tratamento-btn a {
-    font-size: 0.875rem;
-    padding: 15px 15px;
   }
 }

@@ -52,26 +52,14 @@
 }
 
 @media (max-width: 576px) {
-  .feedback-title {
-    width: 500px;
-  }
-  .feedback h2 {
-    font-size: 1.56rem;
-  }
-
   .feedback-btn a {
     font-size: 0.93rem;
+    text-align: center;
   }
-}
-
-@media (max-width: 400px) {
   .feedback-title {
     width: 300px;
   }
   .feedback h2 {
     font-size: 1.25rem;
-  }
-  .feedback-btn a {
-    text-align: center;
   }
 }
