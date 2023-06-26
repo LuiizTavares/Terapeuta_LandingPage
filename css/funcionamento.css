@@ -48,7 +48,7 @@
 }
 
 .funcionamento-resultado {
-  padding: 50px 0px;
+  padding: 100px 0px;
 }
 
 .resultado-textos h2 {
@@ -106,6 +106,9 @@
 @media (max-width: 576px) {
   .funcionamento {
     margin-top: 50px;
+  }
+  .funcionamento-resultado {
+    padding: 50px 0px;
   }
   .funcionamento-resultado-bg {
     margin-top: 50px;
