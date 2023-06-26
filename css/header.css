@@ -98,3 +98,9 @@
     padding: 15px 30px;
   }
 }
+
+@media (max-width: 400px) {
+  .header-video video {
+    max-width: 300px;
+  }
+}

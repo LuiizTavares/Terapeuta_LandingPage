@@ -63,3 +63,9 @@
     font-size: 15px;
   }
 }
+
+@media (max-width: 400px) {
+  .feedback-title {
+    width: 300px;
+  }
+}
