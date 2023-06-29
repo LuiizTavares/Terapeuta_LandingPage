@@ -1,7 +1,7 @@
 .footer-bg {
   background-image: url("../imgs/fundos/footer-blur4.png");
   border-top: 2px solid #fff;
-  padding: 50px 0px;
+  padding: 25px 0px;
 }
 
 .footer-conteudo {
@@ -45,6 +45,17 @@
   gap: 10px;
 }
 
+.copy {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  color: #fff;
+}
+
 @media (max-width: 576px) {
   .footer-conteudo h2 {
     font-size: 0.875rem;
@@ -64,6 +75,9 @@
   .contato-icon {
     flex-wrap: wrap;
     gap: 15px;
+  }
+  .copy {
+    font-size: 0.625rem;
   }
 }
 
